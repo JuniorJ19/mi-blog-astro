@@ -65,3 +65,19 @@ button:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode a {
+  color: #66b3ff;
+}
+
+body.dark-mode button {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
